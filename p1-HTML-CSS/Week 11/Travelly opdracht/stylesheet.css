@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    size: 62.5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#title {
+    font-family: 'Pattaya', sans-serif;
+}
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    background-color: #131c27;
+    height: 10vh;
+
+    color: white;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 50%;
+    padding-left: 45%;
+    margin-right: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav li { 
+    display: flex;
+    font-size: 25px;
+}
+#title {
+    display: flex;
+    font-size: 30px;
+    width: auto;
+    align-items: center;
+    margin-left: 5%;
+}
+
+
+
+.main_1 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+}
+.main_1 h2 {
+    display: flex;
+    font-size: 62px;
+    padding-bottom: 5rem;
+}
+.main_1 p {
+    display: flex;
+    font-size: 40px;
+}
+#main_1_p2 {
+    padding-bottom: 3.5rem;
+}
+#book_btn {
+    color: white;
+    display: flex;
+    background-color: #4c6e97;
+    width: 18rem;
+    height: 5rem;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+}
+
+
+
+
+.main_2 {
+    display: flex;
+    height: 100vh;
+    max-width: 100%;
+
+
+    color: white;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(./img/new-york-page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+}
+.main_2 h2 {
+    font-size: 62px;
+    border-bottom: 5px solid white;
+    margin-bottom: 5%;
+}
+.main_2 p {
+    font-size: 40px;
+}
+
+
+
+.main_3 {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+.main_3_header h2{
+    display: flex;
+    flex-direction: column;
+    background-color: #131c27;
+    color: white;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    font-size: 62.5px;
+    width: 65%;
+    text-align: center;
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.main_3_header p{
+    display: flex;
+    flex-direction: column;
+    background-color: #131c27;
+    color: white;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 65%;
+    text-align: center;
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+    padding-bottom: 2%;
+}
+.main_3_tabs {
+    display: flex;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.main_travel {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2.5px 5px grey;
+    height: 20%;
+}
+#img_route {  
+    background-color: #131c27;
+    height: 10vh;
+}
+.main_hotel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vh;
+    margin-right: 7vh;
+    box-shadow: 0px 2.5px 5px grey;
+    height: 20%;
+}
+#img_bed {
+    height: 10vh;
+    width: 100%;
+    background-color: #131c27;
+}
+.main_fly {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2.5px 5px grey; 
+}
+#img_fly {
+    height: 10vh;
+    width: 100%;
+    background-color: #131c27;
+}
+        
+
+
+
+.main_contact {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(./img/contact-mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+footer {
+    display: flex;
+    background-color: #131c27;
+    height: 8vh;
+    width: 100vw;
+    max-width: 100%;
+    color: white;
+}
